@@ -1,0 +1,98 @@
+body {background-color:black}
+.box1{position:relative;z-index:-1;}
+    .center1{
+        position:absolute;
+        display: block;
+        right:475px;
+        top:320px;
+        left:475px;
+        z-index:1;}
+    .left1{
+        position:absolute;
+        display: block;
+        left:0px;
+        z-index:1;}
+    .right1{
+        position:absolute;
+        display: block;
+        right:-330px;
+        z-index:1;}
+
+.button1{border:none;
+background:#CC0066;
+padding:20px;
+font-size:25px;
+color: white;
+cursor: pointer;
+border-radius:33px;
+position:absolute;
+right:200px;
+top:900px;}
+.button2{border:none;
+background:#CC0066;
+padding:20px;
+font-size:25px;
+color: white;
+cursor: pointer;
+border-radius:33px;
+position:absolute;
+left:200px;
+top:900px;}
+.box2{position:relative;top:500px;z-index:-1;}
+    .center2{
+        position:absolute;
+        display: block;
+        top:150px;
+        left:0px;
+        z-index:0;}
+    .left2{
+        position:absolute;
+        display: block;
+        top:350px;
+        left:250px;
+        z-index:1;}
+
+.M{position: relative;top:500px;left:525px;}
+.member1{
+    background-color: #191970;
+    width: 222px;
+    margin: 33px;
+    border: 300px;
+    border-radius:33px;
+    padding: 22px;
+    position: relative;
+    top:550px;
+    left:125px;
+    float:left;}
+img.head{height:65px;}
+.T{height:100px;
+width:100px;
+font-size:23px;}
+.X{position:absolute;top:3050px;left:525px;z-index:2}
+.box3{position: absolute;top:3750px;z-index:0;}
+.z{position:absolute;
+color:white;
+left:575px;
+top:650px;
+z-index:1;
+font-size:43px;}
+.a{text-decoration:none;
+border:none;
+background:#CC0066;
+padding:20px;
+font-size:25px;
+color: white;
+cursor: pointer;
+border-radius:33px;
+box-shadow: 10px 10px 5px #700038;
+position:absolute;
+left:550px;
+right:475px;
+top:725px;
+text-align:center;}
+.box {height: 1000px;
+display: -webkit-box;
+-webkit-box-orient:vertical;}
+	.box div{height:100%;}
+	.div1{background-color: #191970;-webkit-box-flex:1;}
+    
